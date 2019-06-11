@@ -34,6 +34,9 @@ social:
 - icon: pinterest
   icon_pack: fab
   link: https://www.pinterest.com/tathiessen
+- icon: github
+  icon_pack: fab
+  link: https://github.com/apreshill/kellykapowski
 superuser: true
 ---
 
