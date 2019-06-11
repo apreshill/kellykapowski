@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 65  # Order that this section will appear.
 
-title = "Projects"
+title = "Books"
 subtitle = ""
 
 [content]
@@ -26,12 +26,16 @@ subtitle = ""
     tag = "*"
   
   [[content.filter_button]]
-    name = "Deep Learning"
-    tag = "Deep Learning"
+    name = "Cooking"
+    tag = "Cooking"
   
   [[content.filter_button]]
-    name = "Other"
-    tag = "Demo"
+    name = "Family"
+    tag = "Family"
+    
+  [[content.filter_button]]
+    name = "Illustrated"
+    tag = "Illustrated"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -41,7 +45,7 @@ subtitle = ""
   #   1 = List
   #   3 = Card
   #   5 = Showcase
-  view = 3
+  view = 5
 
   # For Showcase view, flip alternate rows?
   flip_alt_rows = false
