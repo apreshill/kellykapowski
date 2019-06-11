@@ -5,11 +5,11 @@
 
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
-weight = 15  # Order that this section will appear.
+active = true  # Activate this widget? true/false
+weight = 40  # Order that this section will appear.
 
-title = "Demos"
-subtitle = ""
+title = "You may know me as Kelly Kapowski..."
+subtitle = "But a lot has changed since those days!"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -29,7 +29,7 @@ subtitle = ""
   # gradient_end = "SkyBlue"
   
   # Background image.
-  image = "headers/bubbles-wide.jpg"  # Name of image in `static/img/`.
+  image = "missing-it-banner.jpg"  # Name of image in `static/img/`.
   image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
@@ -37,7 +37,7 @@ subtitle = ""
 
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
-  padding = ["20px", "0", "20px", "0"]
+  padding = ["200px", "0", "200px", "0"]
 
 [advanced]
  # Custom CSS. 
@@ -47,16 +47,4 @@ subtitle = ""
  css_class = ""
 +++
 
-Welcome to the **personal demo** of Academic. Other demos available include:
-
-- [**Project Demo** (Academic's actual site)](https://sourcethemes.com/academic/)
-
-**Over 100,000 [Amazing Websites](https://sourcethemes.com/academic/#expo) have Already Been Built with Academic**
-
-**[Join](https://sourcethemes.com/academic/docs/install/) the Most Empowered Hugo Community**
-
-{{% alert note %}}
-This homepage section is an example of adding [elements](https://sourcethemes.com/academic/docs/writing-markdown-latex/) to the [*Blank* widget](https://sourcethemes.com/academic/docs/widgets/).
-
-Backgrounds can be applied to any section. Here, the *background* option is set give an *image parallax* effect.
-{{% /alert %}}
+Read more below to find out what I've been up to since Saved by the Bell.
