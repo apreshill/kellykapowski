@@ -1,0 +1,61 @@
+---
+title: My Decision to Start Learning R
+author: Kelly Kapowski
+date: '2019-06-11'
+slug: []
+categories: []
+tags: []
+subtitle: ''
+summary: 'Embarking on a new kind of role'
+authors:
+- kelly
+lastmod: '2019-06-11T22:58:02-07:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+
+
+Who knew? Data science is trendy, and I'm looking to get into it. See, look- I'm already DOING data science right here:
+
+```{r warning = FALSE, message = FALSE}
+library(tidyverse)
+library(ggplot2)
+```
+
+```{r}
+oplot <- ggplot(Orange, aes(x = age, 
+                   y = circumference, 
+                   colour = Tree)) +
+  geom_point() +
+  geom_line() +
+  guides(colour = FALSE) +
+  theme_minimal() +
+  scale_colour_viridis_d(option = "magma") +
+  theme(
+    plot.background = element_rect(fill = "#EAE7D6", colour = NA))
+oplot
+```
+
+Gotta say- I love these viridis palettes. I think magma is my favorite! Here is a markdown image inserted using `![](magma.jpg)`
+
+![](magma.jpg)
+
+
+I also sometimes use `knitr` for this kind of thing too:
+
+```{r out.width='25%'}
+knitr::include_graphics("magma.jpg")
+```
+
+As you can tell from my [bio](../../#about), I like fun colors.
+
+Here is a link to my [static folder](../../img/bell-logo.png).
+
+
+Here is a link to another one of my posts: [here](../jupyter/)
+
