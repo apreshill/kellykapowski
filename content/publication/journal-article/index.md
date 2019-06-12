@@ -7,8 +7,8 @@ abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere 
   dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus.
   Vestibulum sit amet erat at nulla eleifend gravida.
 authors:
-- admin
-- Robert Ford
+- kelly
+- lisa
 date: "2015-09-01T00:00:00Z"
 doi: ""
 featured: false

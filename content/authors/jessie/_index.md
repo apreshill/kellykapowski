@@ -1,6 +1,6 @@
 ---
 authors:
-- jessiespano
+- jessie
 bio: "I'm so excited, I'm so excited, I'm so, I'm so... scared!"
 education:
   courses:
