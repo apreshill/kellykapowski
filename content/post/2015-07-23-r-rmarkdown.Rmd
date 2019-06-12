@@ -37,3 +37,40 @@ pie(
   init.angle = -50, border = NA
 )
 ```
+
+---
+
+`[jupyter post](../jupyter)`
+
+Link to another post: [jupyter post](../jupyter)
+
+---
+
+`[my books](../../book)`
+
+Link to book content: [my books](../../book)
+
+---
+
+`[about Kelly!](../../#about)`
+
+Link to my about page: [about Kelly!](../../#about)
+
+---
+
+`[hero image](../../img/hero-academic.png)`
+
+Link to image in static: [hero image](../../img/hero-academic.png)
+
+---
+
+`![alt text here](../../img/hero-academic.png)` 
+
+![alt text here](../../img/hero-academic.png)
+
+---
+
+```{r}
+knitr::include_graphics("../../img/bell-logo.png")
+```
+
