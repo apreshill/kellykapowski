@@ -17,6 +17,11 @@
   name = "Books"
   url = "#books"
   weight = 30
+  
+[[main]]
+  name = "The Bell"
+  url = "thebell/"
+  weight = 30
 
 [[main]]
   name = "Contact"
