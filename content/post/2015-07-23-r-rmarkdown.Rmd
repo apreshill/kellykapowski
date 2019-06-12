@@ -8,6 +8,32 @@ categories: ["R"]
 tags: ["R Markdown", "plot", "regression"]
 ---
 
+Link to jupyter post
+
+[here is my jupyter post](../jupyter)
+
+---
+
+link to my books
+
+[book list page](../../book)
+
+---
+
+link to my gallery
+
+[fashion highlights](../../#gallery)
+
+---
+
+This is a file in my static directory!!
+
+static is not referenced in my link...
+
+[text](../../img/hero-academic.png)
+
+---
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(collapse = TRUE)
 ```
