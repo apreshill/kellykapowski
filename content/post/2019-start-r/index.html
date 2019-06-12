@@ -34,7 +34,7 @@ library(ggplot2)</code></pre>
   theme(
     plot.background = element_rect(fill = &quot;#EAE7D6&quot;, colour = NA))
 oplot</code></pre>
-<p><img src="/post/2019-start-r/index_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+<p><img src="/post/2019-start-r/index_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
 <p>Gotta say- I love these viridis palettes. I think magma is my favorite! Here is a markdown image inserted using <code>![](magma.jpg)</code></p>
 <p><img src="magma.jpg" /></p>
 <p>I also sometimes use <code>knitr</code> for this kind of thing too:</p>
@@ -51,3 +51,18 @@ oplot</code></pre>
 <p><a href="{{% relref "/#about" %}}">link to my bio</a></p>
 <p><a href="{{% relref "jupyter" %}}">link to jupyter post</a></p>
 <p>I can’t get it to work with <code>static/</code> links though.</p>
+<hr />
+<p>Let’s read in that <code>Orange</code> data frame:</p>
+<pre class="r"><code>happy &lt;- readr::read_csv(&quot;orange-you-happy.csv&quot;)</code></pre>
+<pre><code>## Parsed with column specification:
+## cols(
+##   Tree = col_double(),
+##   age = col_double(),
+##   circumference = col_double()
+## )</code></pre>
+<pre class="r"><code>dplyr::glimpse(happy)</code></pre>
+<pre><code>## Observations: 35
+## Variables: 3
+## $ Tree          &lt;dbl&gt; 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3,…
+## $ age           &lt;dbl&gt; 118, 484, 664, 1004, 1231, 1372, 1582, 118, 484, 6…
+## $ circumference &lt;dbl&gt; 30, 58, 87, 115, 120, 142, 145, 33, 69, 111, 156, …</code></pre>

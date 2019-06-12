@@ -18,6 +18,11 @@ image:
 projects: []
 ---
 
+```{r include = FALSE}
+readr::write_csv(tibble::as_tibble(Orange), path = here::here("content/post/2019-start-r/orange-you-happy.csv"))
+```
+
+
 
 
 Who knew? Data science is trendy, and I'm looking to get into it. See, look- I'm already DOING data science right here:
@@ -53,6 +58,7 @@ knitr::include_graphics("magma.jpg")
 ```
 
 
+
 ---
 
 
@@ -76,3 +82,16 @@ Oh and you guys? I learned a new thing! Here are some relative links made with `
 [link to jupyter post](`r blogdown::shortcode("relref", "jupyter")`)
 
 I can't get it to work with `static/` links though.
+
+
+---
+
+Let's read in that `Orange` data frame:
+
+```{r}
+happy <- readr::read_csv("orange-you-happy.csv")
+dplyr::glimpse(happy)
+```
+
+
+
