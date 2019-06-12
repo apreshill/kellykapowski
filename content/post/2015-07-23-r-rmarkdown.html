@@ -1,6 +1,8 @@
 ---
 title: "Hello R Markdown"
 author: "Frida Gomam"
+authors:
+- kelly
 date: 2015-07-23T21:13:14-05:00
 categories: ["R"]
 tags: ["R Markdown", "plot", "regression"]
@@ -8,6 +10,19 @@ tags: ["R Markdown", "plot", "regression"]
 
 
 
+<p>Link to jupyter post</p>
+<p><a href="../jupyter">here is my jupyter post</a></p>
+<hr />
+<p>link to my books</p>
+<p><a href="../../book">book list page</a></p>
+<hr />
+<p>link to my gallery</p>
+<p><a href="../../#gallery">fashion highlights</a></p>
+<hr />
+<p>This is a file in my static directory!!</p>
+<p>static is not referenced in my link…</p>
+<p><a href="../../img/hero-academic.png">text</a></p>
+<hr />
 <div id="r-markdown" class="section level1">
 <h1>R Markdown</h1>
 <p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
@@ -46,4 +61,25 @@ pie(
 Figure 1: A fancy pie chart.
 </p>
 </div>
+<hr />
+<p><code>[jupyter post](../jupyter)</code></p>
+<p>Link to another post: <a href="../jupyter">jupyter post</a></p>
+<hr />
+<p><code>[my books](../../book)</code></p>
+<p>Link to book content: <a href="../../book">my books</a></p>
+<hr />
+<p><code>[about Kelly!](../../#about)</code></p>
+<p>Link to my about page: <a href="../../#about">about Kelly!</a></p>
+<hr />
+<p><code>[hero image](../../img/hero-academic.png)</code></p>
+<p>Link to image in static: <a href="../../img/hero-academic.png">hero image</a></p>
+<hr />
+<p><code>![alt text here](../../img/hero-academic.png)</code></p>
+<div class="figure">
+<img src="../../img/hero-academic.png" alt="alt text here" />
+<p class="caption">alt text here</p>
+</div>
+<hr />
+<pre class="r"><code>knitr::include_graphics(&quot;../../img/bell-logo.png&quot;)</code></pre>
+<p><img src="../../img/bell-logo.png" /><!-- --></p>
 </div>

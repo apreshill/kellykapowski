@@ -1,0 +1,68 @@
+---
+title: My Decision to Start Learning R
+author: Kelly Kapowski
+date: '2019-06-11'
+slug: []
+categories: []
+tags: []
+subtitle: ''
+summary: 'Embarking on a new kind of role'
+authors:
+- kelly
+lastmod: '2019-06-11T22:58:02-07:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+
+
+<p>Who knew? Data science is trendy, and I’m looking to get into it. See, look- I’m already DOING data science right here:</p>
+<pre class="r"><code>library(tidyverse)
+library(ggplot2)</code></pre>
+<pre class="r"><code>oplot &lt;- ggplot(Orange, aes(x = age, 
+                   y = circumference, 
+                   colour = Tree)) +
+  geom_point() +
+  geom_line() +
+  guides(colour = FALSE) +
+  theme_minimal() +
+  scale_colour_viridis_d(option = &quot;magma&quot;) +
+  theme(
+    plot.background = element_rect(fill = &quot;#EAE7D6&quot;, colour = NA))
+oplot</code></pre>
+<p><img src="/post/2019-start-r/index_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+<p>Gotta say- I love these viridis palettes. I think magma is my favorite! Here is a markdown image inserted using <code>![](magma.jpg)</code></p>
+<p><img src="magma.jpg" /></p>
+<p>I also sometimes use <code>knitr</code> for this kind of thing too:</p>
+<pre class="r"><code>knitr::include_graphics(&quot;magma.jpg&quot;)</code></pre>
+<p><img src="magma.jpg" width="25%" /></p>
+<hr />
+<p>As you can tell from my <a href="../../#about">bio</a>, I like fun colors.</p>
+<p>I use lots of colors in my new <a href="../../book/youre-missing-it">children’s book</a> too.</p>
+<p>Here is a link to my <a href="../../img/bell-logo.png">the Saved by the Bell logo in static folder</a>.</p>
+<p>Here is the actual image <img src="../../img/bell-logo.png" alt="logo" /></p>
+<p>Here is a link to another one of my posts: <a href="../jupyter/">here</a></p>
+<hr />
+<p>Oh and you guys? I learned a new thing! Here are some relative links made with <code>blogdown</code> shortcodes:</p>
+<p><a href="{{% relref "/#about" %}}">link to my bio</a></p>
+<p><a href="{{% relref "jupyter" %}}">link to jupyter post</a></p>
+<p>I can’t get it to work with <code>static/</code> links though.</p>
+<hr />
+<p>Let’s read in that <code>Orange</code> data frame:</p>
+<pre class="r"><code>happy &lt;- readr::read_csv(&quot;orange-you-happy.csv&quot;)</code></pre>
+<pre><code>## Parsed with column specification:
+## cols(
+##   Tree = col_double(),
+##   age = col_double(),
+##   circumference = col_double()
+## )</code></pre>
+<pre class="r"><code>dplyr::glimpse(happy)</code></pre>
+<pre><code>## Observations: 35
+## Variables: 3
+## $ Tree          &lt;dbl&gt; 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3,…
+## $ age           &lt;dbl&gt; 118, 484, 664, 1004, 1231, 1372, 1582, 118, 484, 6…
+## $ circumference &lt;dbl&gt; 30, 58, 87, 115, 120, 142, 145, 33, 69, 111, 156, …</code></pre>

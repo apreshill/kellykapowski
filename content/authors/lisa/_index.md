@@ -1,6 +1,6 @@
 ---
 authors:
-- lisaturtle
+- lisa
 bio: "No matter what happens, keep on smiling and when life hands a lemon, make some lemonade."
 education:
   courses:
