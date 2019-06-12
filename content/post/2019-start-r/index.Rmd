@@ -52,10 +52,27 @@ I also sometimes use `knitr` for this kind of thing too:
 knitr::include_graphics("magma.jpg")
 ```
 
+
+---
+
+
 As you can tell from my [bio](../../#about), I like fun colors.
 
-Here is a link to my [static folder](../../img/bell-logo.png).
+I use lots of colors in my new [children's book](../../book/youre-missing-it) too.
 
+Here is a link to my [the Saved by the Bell logo in static folder](../../img/bell-logo.png).
+
+Here is the actual image ![logo](../../img/bell-logo.png)
 
 Here is a link to another one of my posts: [here](../jupyter/)
 
+---
+
+Oh and you guys? I learned a new thing! Here are some relative links made with `blogdown` shortcodes:
+
+[link to my bio](`r blogdown::shortcode("relref", "/#about")`)
+
+
+[link to jupyter post](`r blogdown::shortcode("relref", "jupyter")`)
+
+I can't get it to work with `static/` links though.
