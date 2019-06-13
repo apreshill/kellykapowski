@@ -37,6 +37,9 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/apreshill/kellykapowski
+- icon: orcid
+  icon_pack: ai
+  link: https://orcid.org
 superuser: true
 ---
 
