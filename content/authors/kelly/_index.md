@@ -44,3 +44,5 @@ superuser: true
 ---
 
 Kelly Kapowski was the most popular girl in school and was head cheerleader and captain of the volleyball, swim, and softball teams. Though a good student and role model, Kelly did find herself punished with detention on a couple of occasions. She also was the love interest of lead student Zack Morris. They were an on/off couple in high school and then they remained friends afterwards and married later. ([read more](https://savedbythebell.fandom.com/wiki/Kelly_Kapowski))
+
+She is enjoying keeping her blogdown site running with an old version of the Hugo Academic theme. Thanks [Dusty Domains](https://dusty.domains/)!
